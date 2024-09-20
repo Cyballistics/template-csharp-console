@@ -1,2 +1,33 @@
 **/**/bin
 **/**/obj
+
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Ignore package directories
+packages/
+.vscode/
+
+# Ignore NuGet files
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+
+# Ignore Resharper files
+_ReSharper*
+*.DotSettings.user
+
+# Ignore Rider files
+.idea/
+
+# Ignore VS Code workspace and settings
+.vscode/
+
+# Ignore dotnet user secrets
+secrets.json

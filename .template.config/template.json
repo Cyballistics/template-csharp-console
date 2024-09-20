@@ -1,18 +1,26 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "author": "@dfirence",
+    "author": "carlos_diaz|dfirence@",
     "classifications": [
         "Common",
         "C#",
-        "ConsoleApplication"
+        "Solution"
     ],
-    "identity": "Cyballistics.CSharpTemplate",
-    "name": "C# Project Template",
-    "shortName": "csharpTemplate",
+    "identity": "Cyballistics.Console.CsharpTemplate",
+    "name": "C",
+    "shortName": "mysolution",
     "tags": {
         "language": "C#",
-        "type": "project"
+        "type": "solution"
     },
-    "sourceName": "",
-    "preferNameDirectory": true
+    "sourceName": "MyApp",
+    "preferNameDirectory": true,
+    "primaryOutputs": [
+        {
+            "path": "src/MyApp/MyApp.csproj"
+        },
+        {
+            "path": "tests/MyApp.Tests/MyApp.Tests.csproj"
+        }
+    ]
 }

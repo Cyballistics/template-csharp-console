@@ -3,16 +3,16 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Template</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <IsTestProject>false</IsTestProject>
-    <!-- Specify the class with the Main() method here -->
-    <StartupObject>MyProject</StartupObject>
+    <!-- RootNamespace and AssemblyName will use the sourceName placeholder -->
+    <RootNamespace>MyApp</RootNamespace>   <!-- This will be replaced with the new project name -->
+    <AssemblyName>MyApp</AssemblyName>     <!-- This will be replaced with the new project name -->
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- Add any necessary dependencies here -->
   </ItemGroup>
 
 </Project>
