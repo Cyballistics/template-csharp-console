@@ -5,8 +5,9 @@
   "scripts": {
     "clear:nuget:local": "dotnet nuget locals all --clear",
     "dotnet:tests": "dotnet test ./cep-tests/cep-tests.csproj --logger \"console;verbosity=detailed\"",
-    "dotnet:build:core": "cd ./cep-core && dotnet build",
-    "dotnet:build:tests": "cd ./cep-tests && dotnet build",
+    "build:core": "cd ./cep-core && dotnet build",
+    "build:tests": "cd ./cep-tests && dotnet build",
+    "clean:all": "npm run clean:core && npm run clean:tests",
     "clean:core": "cd ./cep-core && dotnet clean && rm -rf obj/ bin/",
     "clean:tests": "cd ./cep-tests && dotnet clean && rm -rf obj/ bin/",
     "dotnet:watch": "dotnet watch --project ./cep-core/cep-core.csproj"

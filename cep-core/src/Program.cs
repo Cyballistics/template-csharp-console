@@ -1,4 +1,4 @@
-﻿namespace cep_sharp;
+﻿namespace CEP;
 
 public class Program
 {
