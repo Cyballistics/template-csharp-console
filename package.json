@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "clear:nuget:local": "dotnet nuget locals all --clear",
-    "dotnet:tests": "dotnet test ./src/tests/MyApp.Tests.csproj --logger \"console;verbosity=detailed\"",
+    "dotnet:tests": "dotnet test ./tests/MyApp.Tests/MyApp.Tests.csproj --logger \"console;verbosity=detailed\"",
+    "build:all": "npm run build:core && npm run build:tests",
     "build:core": "cd ./src/MyApp && dotnet build",
-    "build:tests": "cd ./src/MyApp.Tests && dotnet build",
+    "build:tests": "cd ./tests/MyApp.Tests && dotnet build",
     "clean:all": "npm run clean:core && npm run clean:tests",
     "clean:core": "cd ./src/MyApp && dotnet clean && rm -rf obj/ bin/",
-    "clean:tests": "cd ./tests/MyApp.Tests && dotnet clean && rm -rf obj/ bin/",
+    "clean:tests": "cd ./tests/MyApp.Tests/ && dotnet clean && rm -rf obj/ bin/",
     "dotnet:watch": "dotnet watch --project ./src/MyApp/src/MyApp.csproj"
   },
   "keywords": [],

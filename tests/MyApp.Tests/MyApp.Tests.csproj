@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\MyApp\MyApp.csproj" />  <!-- This reference should also use
+    <ProjectReference Include="..\..\src\MyApp\MyApp.csproj" />  <!-- This reference should also use
     sourceName -->
   </ItemGroup>
 
