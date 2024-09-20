@@ -3,12 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>CEP</RootNamespace>
+    <RootNamespace>Template</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsTestProject>false</IsTestProject>
     <!-- Specify the class with the Main() method here -->
-    <StartupObject>CEP.Program</StartupObject>
+    <StartupObject>MyProject</StartupObject>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 

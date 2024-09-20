@@ -1,16 +1,17 @@
 {
-  "name": "cep-sharp",
+  "name": "csharp-template-helper",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "clear:nuget:local": "dotnet nuget locals all --clear",
-    "dotnet:tests": "dotnet test ./cep-tests/cep-tests.csproj --logger \"console;verbosity=detailed\"",
-    "build:core": "cd ./cep-core && dotnet build",
-    "build:tests": "cd ./cep-tests && dotnet build",
+    "dotnet:tests": "dotnet test ./template-test/template-test.csproj --logger \"console;verbosity=detailed\"",
+    "build:core": "cd ./template-core && dotnet build",
+    "build:tests": "cd ./template-test && dotnet build",
     "clean:all": "npm run clean:core && npm run clean:tests",
-    "clean:core": "cd ./cep-core && dotnet clean && rm -rf obj/ bin/",
-    "clean:tests": "cd ./cep-tests && dotnet clean && rm -rf obj/ bin/",
-    "dotnet:watch": "dotnet watch --project ./cep-core/cep-core.csproj"
+    "clean:core": "cd ./template-core && dotnet clean && rm -rf obj/ bin/",
+    "clean:tests": "cd ./template-test && dotnet clean && rm -rf obj/ bin/",
+    "dotnet:watch": "dotnet watch --project ./template-core/template-core.csproj"
   },
   "keywords": [],
   "author": "",

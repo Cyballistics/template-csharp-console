@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "@dfirence",
+    "classifications": [
+        "Common",
+        "C#",
+        "ConsoleApplication"
+    ],
+    "identity": "Cyballistics.CSharpTemplate",
+    "name": "C# Project Template",
+    "shortName": "csharpTemplate",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "",
+    "preferNameDirectory": true
+}

@@ -24,6 +24,6 @@
     <Using Include="Xunit" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\cep-core\cep-core.csproj" />
+    <ProjectReference Include="..\template-core\template-core.csproj" />
   </ItemGroup>
 </Project>
