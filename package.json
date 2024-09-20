@@ -1,0 +1,18 @@
+{
+  "name": "cep-sharp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clear:nuget:local": "dotnet nuget locals all --clear",
+    "dotnet:tests": "dotnet test ./cep-tests/cep-tests.csproj --logger \"console;verbosity=detailed\"",
+    "dotnet:build:core": "cd ./cep-core && dotnet build",
+    "dotnet:build:tests": "cd ./cep-tests && dotnet build",
+    "clean:core": "cd ./cep-core && dotnet clean && rm -rf obj/ bin/",
+    "clean:tests": "cd ./cep-tests && dotnet clean && rm -rf obj/ bin/",
+    "dotnet:watch": "dotnet watch --project ./cep-core/cep-core.csproj"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

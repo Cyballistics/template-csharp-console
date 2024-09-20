@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cep-core", "cep-core.csproj", "{2DF71536-0925-468D-91D9-6F439A60FAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cep-tests", "..\cep-tests\cep-tests.csproj", "{1CE65E81-D940-44C2-ACEF-0DDC0AD20CF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF71536-0925-468D-91D9-6F439A60FAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF71536-0925-468D-91D9-6F439A60FAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF71536-0925-468D-91D9-6F439A60FAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF71536-0925-468D-91D9-6F439A60FAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE65E81-D940-44C2-ACEF-0DDC0AD20CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE65E81-D940-44C2-ACEF-0DDC0AD20CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE65E81-D940-44C2-ACEF-0DDC0AD20CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE65E81-D940-44C2-ACEF-0DDC0AD20CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B122428-0775-4B3A-B4DE-4D87CF36E94A}
+	EndGlobalSection
+EndGlobal
