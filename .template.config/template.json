@@ -4,11 +4,12 @@
     "classifications": [
         "Common",
         "C#",
+        "ConsoleApp",
         "Solution"
     ],
     "identity": "Cyballistics.Console.CsharpTemplate",
-    "name": "C",
-    "shortName": "mysolution",
+    "name": "cyabllistics-console",
+    "shortName": "cc",
     "tags": {
         "language": "C#",
         "type": "solution"
