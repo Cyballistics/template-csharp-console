@@ -1,30 +1,33 @@
 using BenchmarkDotNet.Attributes;
 using MyApp;  // Reference your main project here
 
-[MemoryDiagnoser]
-public class MyAppBenchmarks
+namespace MyApp.Benchmarks
 {
-
-    /// <summary>
-    /// MyAppBenchmark constructor
-    /// </summary>
-    public MyAppBenchmarks()
+    [MemoryDiagnoser]
+    public class MyAppBenchmarks
     {
-    }
 
-    /// <summary>
-    /// MyApp method to benchmark
-    /// </summary>
-    [Benchmark]
-    public void BenchmarkMethod1()
-    {
-    }
+        /// <summary>
+        /// MyAppBenchmark constructor
+        /// </summary>
+        public MyAppBenchmarks()
+        {
+        }
 
-    /// <summary>
-    /// MyApp method to benchmark
-    /// </summary>
-    [Benchmark]
-    public void BenchmarkMethod2()
-    {
+        /// <summary>
+        /// MyApp method to benchmark
+        /// </summary>
+        [Benchmark]
+        public void BenchmarkMethod1()
+        {
+        }
+
+        /// <summary>
+        /// MyApp method to benchmark
+        /// </summary>
+        [Benchmark]
+        public void BenchmarkMethod2()
+        {
+        }
     }
 }

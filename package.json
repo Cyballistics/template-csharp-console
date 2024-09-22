@@ -6,6 +6,7 @@
   "scripts": {
     "clear:nuget:local": "dotnet nuget locals all --clear",
     "dotnet:tests": "dotnet test ./tests/MyApp.Tests/MyApp.Tests.csproj --logger \"console;verbosity=detailed\"",
+    "benchmarks": "cd ./benchmarks/MyApp.Benchmarks && dotnet run --configuration Release",
     "build:all": "npm run build:core && npm run build:tests",
     "build:core": "cd ./src/MyApp && dotnet build",
     "build:tests": "cd ./tests/MyApp.Tests && dotnet build",

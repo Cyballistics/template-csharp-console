@@ -1,10 +1,16 @@
 ﻿using BenchmarkDotNet.Running;
 
 
-class Program
+namespace MyApp.Benchmarks
 {
-    static void Main(string[] args)
+
+    class Program
     {
-        var summary = BenchmarkRunner.Run<MyAppBenchmarks>();
+        static void Main(string[] args)
+        {
+            // Run benchmarks
+            var _ = BenchmarkRunner.Run<MyAppBenchmarks>();
+        }
     }
+
 }
