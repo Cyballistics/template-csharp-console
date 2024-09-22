@@ -22,6 +22,9 @@
         },
         {
             "path": "tests/MyApp.Tests/MyApp.Tests.csproj"
+        },
+        {
+            "path": "benchmarks/MyApp.Benchmarks.csproj"
         }
     ]
 }

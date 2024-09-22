@@ -1,10 +1,10 @@
-﻿namespace MyProject
+﻿namespace MyApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello from MyProject!");
+            Console.WriteLine("Hello from MyApp!");
         }
     }
 }
