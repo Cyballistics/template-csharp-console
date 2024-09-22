@@ -24,7 +24,7 @@
             "path": "tests/MyApp.Tests/MyApp.Tests.csproj"
         },
         {
-            "path": "benchmarks/MyApp.Benchmarks.csproj"
+            "path": "benchmarks/MyApp.Benchmarks/MyApp.Benchmarks.csproj"
         }
     ]
 }
