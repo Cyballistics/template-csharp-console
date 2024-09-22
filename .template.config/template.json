@@ -26,5 +26,16 @@
         {
             "path": "benchmarks/MyApp.Benchmarks/MyApp.Benchmarks.csproj"
         }
+    ],
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        ".git/**"
+                    ]
+                }
+            ]
+        }
     ]
 }
