@@ -4,6 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "add:template": "dotnet new install .",
+    "remove:template": "dotnet new uninstall .",
     "clear:nuget:local": "dotnet nuget locals all --clear",
     "dotnet:tests": "dotnet test ./tests/MyApp.Tests/MyApp.Tests.csproj --logger \"console;verbosity=detailed\"",
     "benchmarks": "cd ./benchmarks/MyApp.Benchmarks && dotnet run --configuration Release",
