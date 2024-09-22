@@ -6,8 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <!-- RootNamespace and AssemblyName will use the sourceName placeholder -->
-    <RootNamespace>MyApp</RootNamespace>   <!-- This will be replaced with the new project name -->
-    <AssemblyName>MyApp</AssemblyName>     <!-- This will be replaced with the new project name -->
+    <RootNamespace>MyApp</RootNamespace>
+    <AssemblyName>MyApp</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 

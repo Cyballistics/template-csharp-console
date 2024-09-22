@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <IsTestProject>true</IsTestProject>
     <Nullable>enable</Nullable>
-    <RootNamespace>MyApp.Tests</RootNamespace>  <!-- This will be replaced with the new project name -->
-    <AssemblyName>MyApp.Tests</AssemblyName>    <!-- This will be replaced with the new project name -->
+    <RootNamespace>MyApp.Tests</RootNamespace>
+    <AssemblyName>MyApp.Tests</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
@@ -27,8 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MyApp\MyApp.csproj" />  <!-- This reference should also use
-    sourceName -->
+    <ProjectReference Include="..\..\src\MyApp\MyApp.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,12 +1,18 @@
 # Overview
 
-A template, free to use to get your console applications bootstraped with unit testing included.
+A template, free to use to get your console applications bootstraped with unit testing included. This template provides 3 projects as part of the template.
 
-## Fluent Assertions
+`1)` The Application Project, this is where you write your code.
+`2)` The Tests Project, this is where you write tests for your code.
+`3)` The Benchmarks Projects, this is where you write benchmarks for your code.
+
+<br/>
+
+## Tests With Fluent Assertions
 
 Inspect the `.csproj` files, you will notice the `XUnit` and `FluentAssertions` Libraries included in the `template-tests`.  This is to aid or encourage you to not only write good software, but to build excellent software with unit tests.
 
-## How to use
+## How to install and use
 Essentially, clone this repo, then install the template locally, and then use the templete for your projects.
 
 ### Step 1 - Git Clone
@@ -40,7 +46,7 @@ dotnet new cc -n YourNewProjectName
 
 <br/><hr/>
 
-# Using Testing
+# Testing
 You are welcome to change the automation tool you want, we use NodeJs for simple automation, you have `package.json` file incldued in the template, and assuming you have NodeJs installed you will be able to run `npm run` commands. At the time of this writing the default template json looks like this below, and pay special attenton to the `scirpts` section.
 
 <br/>

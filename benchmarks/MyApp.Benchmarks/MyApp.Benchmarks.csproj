@@ -4,10 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>MyApp.Benchmarks</RootNamespace>   <!-- This will be replaced with the new project
-    name -->
-    <AssemblyName>MyApp.Benchmarks</AssemblyName>     <!-- This will be replaced with the new project
-    name -->
+    <RootNamespace>MyApp.Benchmarks</RootNamespace>
+    <AssemblyName>MyApp.Benchmarks</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
