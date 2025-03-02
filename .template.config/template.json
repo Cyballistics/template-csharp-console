@@ -18,13 +18,13 @@
     "preferNameDirectory": true,
     "primaryOutputs": [
         {
-            "path": "src/MyApp/MyApp.csproj"
+            "path": "MyApp/MyApp.csproj"
         },
         {
-            "path": "tests/MyApp.Tests/MyApp.Tests.csproj"
+            "path": "MyApp.Tests/MyApp.Tests.csproj"
         },
         {
-            "path": "benchmarks/MyApp.Benchmarks/MyApp.Benchmarks.csproj"
+            "path": "MyApp.Benchmarks/MyApp.Benchmarks.csproj"
         }
     ],
     "sources": [

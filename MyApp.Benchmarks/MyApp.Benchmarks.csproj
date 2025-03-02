@@ -12,6 +12,7 @@
     <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MyApp\MyApp.csproj" />
+    <ProjectReference Include="..\MyApp\MyApp.csproj" />
+    <ProjectReference Include="..\MyApp.Tests\MyApp.Tests.csproj" />
   </ItemGroup>
 </Project>
